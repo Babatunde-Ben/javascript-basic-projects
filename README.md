@@ -17,7 +17,7 @@ To clone this project, copy and past the code below into your terminal
 
 ---
 
-[Live Preview]("insert the hosted link here")
+[Live Preview](https://colorflipperbytunex.netlify.app)
 
 [Github repository](https://github.com/Babatunde-Ben/javascript-basic-projects.git)
 ## Happy coding! 👋 
