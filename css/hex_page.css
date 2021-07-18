@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    background-color: blue;
+    font-family: sans-serif;
+}
+.nav_bar{
+    color: white;
+    background-color: rgb(255, 255, 255);
+    padding: 0.9em 10em;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 5px  rgb(0, 0, 0);
+
+}
+.nav_bar div a{
+   margin: 0 1em;
+   padding: 1em;
+   letter-spacing: 2px;
+    /* background-color: rgb(96, 33, 33); */
+   color: rgb(48, 48, 48);
+   text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    border-radius: 2px;font-weight: bold;
+    color: rgb(65, 65, 65); 
+}
+.nav_bar div a:active{
+   transform: scale(0.95);
+ 
+}
+.nav_bar div a:hover{
+    background-color: rgb(81, 81, 81);
+    color: white;
+}
+.nav_bar div #hex{
+   background-color: rgb(81, 81, 81);
+    color: white;
+}
+
+.nav_bar #title{
+   color: rgb(24, 119, 150);
+   letter-spacing: 2px;
+   font-size: 1.5em;
+   font-weight: bold;
+}
+section{
+    display: inline-block;
+    margin-top: 30vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section p{
+    background-color: #151515;
+    margin: 1em 0;
+    padding: 1em;
+    font-size: 1.7em;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 0.3em;
+}
+section p span{
+    margin: 0 0.3em;
+    color: rgb(127, 177, 230);
+
+}
+section button{
+    cursor: pointer;
+    margin:1em;
+    padding: 0.8em;
+    border-radius: 0.5em;
+    outline: none;
+    border: 2px solid rgb(21, 21, 21);
+    background-color: transparent;
+    text-transform: uppercase;
+    color: rgb(21, 21, 21);
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+section button:hover{
+background-color: rgb(21, 21, 21);
+color: white;
+}
+section button:active{
+   transform: scale(0.95);
+}
+
+section img{
+    width: 2em;
+    height: 2em;
+}
+
+@media all and (max-width:780px) {
+  
+    .nav_bar{
+    padding: 0.9em 5em;
+
+}
+    .nav_bar div a{
+   margin: 0 0.5em;
+   padding: 1em;
+    font-size: 0.9em;
+
+}
+
+}
+@media all and (max-width:576px) {
+  
+    .nav_bar{
+    padding: 0.9em 1em;
+    height: 5vh;
+}
+.nav_bar #title{
+   font-size: 1em;
+}
+    .nav_bar div a{
+   margin: 0 0.5em;
+   padding: 0.5em;
+    font-size: 0.8em;
+}
+section{
+    display: block;
+    margin: 30vh auto 0 auto ;
+    height: 20vh;
+    
+}
+section p{
+    width: 15em;
+    margin: 0.8em auto;
+    padding: 0.5em;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 0.3em;
+}
+section p span{
+    margin: 0 0.2em;
+    color: rgb(127, 177, 230);
+
+}
+section button{
+    display: block;
+    margin: 0.5em auto;
+    padding: 0.8em;
+    border-radius: 0.5em;
+    font-size: 0.7em;
+
+}
+section a {
+    display: block;
+    text-align: center;
+    margin: 1em 0;
+
+}
+}
