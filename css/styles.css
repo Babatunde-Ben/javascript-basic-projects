@@ -156,9 +156,10 @@ section button{
 
 }
 section a {
-    display: block;
+    display: inline-block;
     text-align: center;
-    margin: 1em 0;
+    
+    margin: 1.5em auto;
 
 }
 }
